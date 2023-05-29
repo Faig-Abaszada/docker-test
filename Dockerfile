@@ -1,5 +1,5 @@
 # build stage
-FROM alpine:3.16
+FROM node@alpine:3.16
 WORKDIR /app
 COPY . .
 RUN npm install
